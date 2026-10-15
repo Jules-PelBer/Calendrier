@@ -1,1 +1,5 @@
-
+.container{
+    display: grid;
+    grid-template-columns: 7fr 7fr 7fr 7fr 7fr 7fr 7fr;
+    grid-template-rows: 5fr 5fr 5fr 5fr 5fr;
+}
