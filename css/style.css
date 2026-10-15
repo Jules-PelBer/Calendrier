@@ -1,7 +1,7 @@
 .container{
     display: grid;
-    grid-template-columns: 7fr 7fr 7fr 7fr 7fr 7fr 7fr;
-    grid-template-rows: 5fr 5fr 5fr 5fr 5fr;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
 
 h1{
@@ -20,4 +20,22 @@ h2{
 body{
     font-family: fantasy;
     background-color: #f3c4d4;
+}
+
+.container div{
+    background-color: #b9345a;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: #f3c4d4;
+}
+
+.container div a{
+    color: #f3c4d4;
+}
+
+div.ancien{
+    color: darkgray;
+    opacity: 50%;
 }
